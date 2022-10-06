@@ -37,31 +37,5 @@ section {
         padding: 1rem;
     }
 }
-.section {
 
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
 
-    >* {
-        padding: 1rem;
-    }
-
-    &__description {
-        height: 50vh;
-    }
-
-    &__images {
-        height: 50vh;
-        flex-flow: row;
-
-        >img {
-            width: 15rem;
-        }
-    }
-    }
-
-    .hidden {
-        display: none;
-    }
